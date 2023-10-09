@@ -30,6 +30,7 @@ sed -i 's/192.168.1.1/192.168.5.8/g' package/base-files/files/bin/config_generat
 #
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
